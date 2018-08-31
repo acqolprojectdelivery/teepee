@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>infinte tree</title>
+
+<!--CSS-->
+<link rel="stylesheet" href="dist/themes/default/style.min.css" />
+
+</head>
+
+<body>
+  <form id="s">
+    <input type = "search" id ="q"/>
+    <button type = "submit">Search</button>
+  </form>
+
+  <div id="container">
+    <ul>
+      <li data-jstree ='{"selected" : true, "opened": true}'>Root node
+        <ul>
+          <li>Child node 1</li>
+          <li>child node 2</li>
+        </ul>
+      </li> 
+    </ul>
+  </div> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+  
+  <script src="/path/to/jstree.min.js"></script>
+  <script>
+   
+      $('#container').jstree({
+        "plugins":["search","dnd"],
+        "core":{"check_callback":true},
+
+      });
+      $("#s").submit(function(e) {
+        e.preventDefault();
+        $("#container").jstree(true).search($("#q").val());
+      
+      });
+  </script>
+  <!--JS-->
+ 
+
+</body>
+</html>
