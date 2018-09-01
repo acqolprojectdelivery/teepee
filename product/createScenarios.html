@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/createScenarios.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main_body.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<script type="text/javascript" src="js/addTextContentFinal.js"></script>
+	<script type="text/javascript" src="js/createScenarios.js"></script>
+	<title></title>
+</head>
+<body>
+
+	<!-- Header Start -->
+	<div class="header">
+		
+		<nav class="topHeader">	
+			<a href="index.html"><img id="logo" src="images/logo.png"/></a>
+			<span class = "testName">TeePee: Tree Testing</span>
+		</nav>
+
+
+		<!-- Menu Bar -->
+		<nav class="menu">	
+			<img id="companyLogo" src="images/companyLogo.png"/>
+			<span class = "companyName">Company Name</span>
+
+			<div class="menuOptions">
+				<ul id="menuItems">
+	            	<li ><a href="first page.html"><b>Dashboard</b></a></li>
+	                <li><a href="my test page.html"><b>My Tree Tests</b></a></li>
+	                <li><a href="second page.html" class="active"><b>Create New Test</b></a></li>
+	                <li style="margin-left: 70px;"><a href="#"><b><i class="fas fa-user-alt"></i> &nbsp;Username <i class="fas fa-sort-down icon"></i></b></a></li>
+            </ul>
+			</div>
+		</nav>
+		<!-- end of menu bar -->
+
+	</div>
+	<!-- Header End -->
+
+	<!-- start of main body -->
+	<div class="mainBody">
+		<div class="leftBody">
+			<div class="panel leftNavBarPanel">
+						<ul>
+							<a href="second page.html" ><li>Getting Started</li></a>
+							<a href="addTextContentFinal.html"><li>Add Text Content</li></a>
+							<a href="Add user data2.html"><li>Add User Data</li></a>
+							<a href="create test.html"><li>Create Tree</li></a>
+							<a href="createScenarios.html" class="leftPanelActive"><li>Create Scenarios</li></a>
+							<a href="Create survey2.html"><li>Create Survey</li></a>
+							<a href="#"><li>Preview</li></a>
+						</ul>
+			</div>
+		</div>
+
+
+		<div class="rightBody">
+			<div class="panel rightPanel">
+				<div class="panel_body">
+					 <div class="newTreeTestPanelTitle">
+						Create Scenarios
+						<input type="button" name="importNewScenario" value="Import Scenario" class="addButton buttonOptionsHover" style="float:right;margin-top: -6px;"/>
+					</div>
+					
+					<div class="newTreeTestPanelMainBody">
+						<form id="formId">
+							<div id="container">
+								<div class ="inputBodyBox " id="inputBodyBox">								
+									<textarea name="scenarioDescription[0]" id="scenarioDescription[0]" class = "textareaBox">Scenario Description</textarea> 
+									<div class="addAnswerButton">
+										<input type="button" name="addAnswerButtonId[0]" id="addAnswerButtonId[0]" value="Add Answer" class="otherButton buttonOptionsHover" />
+
+										
+
+									</div>
+
+								<!-- 	<div class="modalBody">
+										<div class="panel" style="box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);">
+											<div class="panel_body">
+												<div class="newTreeTestPanelTitle">
+													Where would you find earphones?
+												</div>
+												<h3>Choose your answer:</h3>
+												<div class="panel rightAlign">
+													<div class="panel_body">
+														<i class="fas fa-sort-down icon"></i> Lavel1
+													</div>
+													
+												</div>
+
+												<div class="panel rightAlign">
+													<div class="panel_body">
+														
+													</div>
+													
+												</div>
+
+
+												<div class="panel rightAlign">
+													<div class="panel_body">
+														
+													</div>
+													
+												</div>
+
+
+												<div class="panel rightAlign">
+													<div class="panel_body">
+														
+													</div>		
+												</div>
+
+
+
+
+												
+											</div>
+											
+										</div>	
+									</div> -->
+								</div>
+							</div>
+							<div class="buttonOptions">
+								<input type="button" name="addNewScenario" value="Add New Scenario" class="addButton buttonOptionsHover" onclick="addScenario()" />
+								<input type="submit" name="saveScenarios" value="Save" class="submitButton buttonOptionsHover" />
+							</div>
+
+						</form>
+					</div>
+
+					
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of main body -->
+
+	
+		
+	</div>
+
+</body>
+</html>

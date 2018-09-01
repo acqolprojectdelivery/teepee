@@ -1,0 +1,112 @@
+*{
+box-sizing: border-box;
+  
+}
+body{
+  background:#e9ebee;
+  margin:0px;
+  font-family:sans-serif;
+
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  z-index:999;
+}
+
+/*------------------------------ Nav Wrapper -----------------------------------*/
+.topHeader{
+  height: 46px;
+  width: 100%;
+  top:0px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  position: relative;
+  z-index:999;
+  
+} 
+
+#logo{
+  width: 40px;
+  height: 40px;
+  margin-left: 31px;
+  margin-top: 3px;
+  float: left;
+}
+
+.testName
+{
+  font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+
+
+/*menu start*/
+.menu{
+      height: 50px;
+    width: 100%;
+    background-color: #ffffff; 
+    z-index: 99;
+    position: relative;
+  
+}  
+
+#companyLogo{
+    width: 35px;
+    height: 35px;
+    margin-left: 54px;
+    margin-top: 7px;
+    float: left;
+}
+
+.companyName
+{
+  font-size: 22px;
+    position: relative;
+    top: 12px;
+    left: 8px;
+}
+
+
+.menuOptions
+{
+      float: right;
+    margin-right: 54px;
+    padding-top: 4px;
+}
+
+
+
+nav ul#menuItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  nav ul#menuItems>li {
+    float: left;
+    
+  }
+
+   nav ul#menuItems li a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+       padding: 14px 15px;
+  }
+
+  li a:hover:not(.active) 
+  {
+    background-color: lightgrey;
+  }
+
+  .active {
+    background-color: lightgrey;
+  }
+

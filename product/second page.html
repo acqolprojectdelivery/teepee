@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/addTextContentFinal.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main_body.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<script type="text/javascript" src="js/addTextContentFinal.js"></script>
+	<title>
+        </title>
+    <style> 
+        ul li ul{
+            display: none;
+            list-style: none;
+            float: right;
+        }
+        ul li:hover ul{
+            display: block;
+        }
+        </style>
+</head>
+<body>
+	<!-- Header Start -->
+	<div class="header">
+		
+		<nav class="topHeader">	
+			<a href="index.html"><img id="logo" src="images/logo.png"/></a>
+			<span class = "testName">TeePee: Tree Testing</span>
+		</nav>
+
+
+		<!-- Menu Bar -->
+		<nav class="menu">	
+			<img id="companyLogo" src="images/companyLogo.png"/>
+			<span class = "companyName">Company Name</span>
+
+			<div class="menuOptions">
+				<ul id="menuItems">
+	            	<li ><a href="first page.html"><b>Dashboard</b></a></li>
+	                <li><a href="my test page.html" ><b>My Tree Tests</b></a></li>
+	                <li><a href="second page.html" class="active"><b>Create New Test</b></a></li>
+	                <li style="margin-left: 70px;"><a href="#"><b><i class="fas fa-user-alt"></i> &nbsp;Username <i class="fas fa-sort-down icon"></i></b></a><ul id="menuitems"><li><a href=""><b>My Account</b></a></li><li><a href=""><b>Logout</b></a></li></ul></li>            </ul>
+			</div>
+		</nav>
+		<!-- end of menu bar -->
+
+	</div>
+	<!-- Header End -->
+
+	<!-- start of main body -->
+	<div class="mainBody">
+		<div class="leftBody">
+			<div class="panel leftNavBarPanel">
+						<ul>
+							<a href="second page.html"  class="leftPanelActive"><li>Getting Started</li></a>
+							<a href="addTextContentFinal.html"><li>Add Text Content</li></a>
+							<a href="Add user data2.html"><li>Add User Data</li></a>
+							<a href="create test.html"><li>Create Tree</li></a>
+							<a href="createScenarios.html"><li>Create Scenarios</li></a>
+							<a href="Create survey2.html"><li>Create Survey</li></a>
+							<a href="#"><li>Preview</li></a>
+						</ul>
+			</div>
+		</div>
+
+
+		<div  class="rightBody">
+			<div  style="height:500px;width: 950px" class="panel rightPanel">
+				<div class="panel_body">
+					 <div class="newTreeTestPanelTitle">
+						Get Started
+					</div>
+					
+					<div class="newTreeTestPanelMainBody">
+						<form>
+							
+							<div class ="formHeading" style="padding-top: 10px;">Text Name:</div><br/>
+							<input style="width: 300px" type="text" name="welcomeMessage" class = "inputBox" /><br/>
+                            <div class ="formHeading" style="padding-top: 10px;">Project</div><br/>
+                            <select style="width: 300px;height: 30px;">
+							<option>Create new project <i class="fa fa-plus"> </i> </option><option>Project A</option><option>Project B</option><option>Project C</option></select><br/>
+                            <div style="float: left" class="buttonOptions">
+								<input type="submit" name="saveButton" value="Save" class="submitButton buttonOptionsHover" />
+							
+                                <input type="submit" name="CancelButton" value="Cancel" class="submitButton buttonOptionsHover" />
+							
+
+                                
+							</div>
+                            <div style="float: right;margin-top: -100px;margin-right: 520px;"><label>OR</label>
+                        </div>
+<div style="float: right;margin-top: -120px;margin-right:250px" class="buttonOptions">
+								<input type="submit" name="copyButton" value="Copy From Existing Test " class="submitButton buttonOptionsHover" />
+                            </div>				
+
+
+							
+						</form>
+					</div>
+
+					
+				</div>
+				</div>
+			</div>
+		</div>
+	
+	<!-- end of main body -->
+
+
+
+</body>
+</html>
