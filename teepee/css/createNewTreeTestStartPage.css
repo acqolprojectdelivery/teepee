@@ -1,0 +1,202 @@
+.menu{
+      height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -58px;
+    background-color: #ffffff; 
+    margin-bottom: 11px;
+    z-index: 1;
+  
+}  
+
+#companyLogo{
+    width: 35px;
+    height: 35px;
+    margin-left: 54px;
+    margin-top: 7px;
+    float: left;
+}
+
+.companyName
+{
+  font-size: 22px;
+    position: relative;
+    top: 12px;
+    left: 8px;
+}
+
+
+.menuOptions
+{
+      float: right;
+    margin-right: 54px;
+    padding-top: 4px;
+}
+
+
+
+nav ul#menuItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  nav ul#menuItems>li {
+    float: left;
+    
+  }
+
+   nav ul#menuItems li a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+       padding: 14px 15px;
+  }
+
+  li a:hover:not(.active) 
+  {
+    background-color: lightgrey;
+  }
+
+  .active {
+    background-color: lightgrey;
+  }
+
+
+.newTreeTestBody
+{
+    margin-top: 105px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.newTreeTestPanel
+{
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.90);
+    display:block;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+  
+.newTreeTestPanelBody
+{
+  padding: 20px;
+  overflow:hidden;
+}
+  
+.newTreeTestPanelTitle
+{
+  border-bottom: 1px solid #eee;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+.subHeading
+{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inputBox
+{
+    display: block;
+    width: 60%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.inputBodyBox
+{
+    display: block;
+    width: 60%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f9f9f9;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    /*padding-left: 10px;*/
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+.textareaBox
+{
+    width: 98%;
+    resize:none; 
+    margin-top: 7px; 
+    height: 200px;
+    margin-bottom: 7px;
+}
+
+.posRight
+{
+  float: right;
+}
+
+.fontOptions
+{
+  padding: 5px;
+}
+
+.fontOptions:hover
+{
+   background-color: lightgrey;
+ }
+
+.buttonOptions
+{
+  float: right;
+
+}
+
+.buttonOptionsHover
+{
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.buttonOptionsHover:hover
+{
+  background-color: lightgrey;
+}
+
+.otherButton
+{
+  background-color: white;
+   color: black;
+  display: inline-block;
+    padding: 6px 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.icon
+{}

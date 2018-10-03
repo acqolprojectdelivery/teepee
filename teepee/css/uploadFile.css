@@ -1,0 +1,74 @@
+/* The Close Button */
+.close {
+    top:0;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* The Modal (background) */
+.bg-modal {
+    display: none; /* Hidden by default */
+    position: relative;  /* Stay in place */
+    z-index: 1; /* Sit on top
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+
+}
+#createTableDiv{
+  display: none; /* Hidden by default */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+}
+#tblLevels{
+  display: none; /* Hidden by default */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+#addbutton{
+  display:inline-block;
+  background:none;
+  background:url('plus.png');
+  width: 25px;
+  height: 25px;
+}
+
+#container{
+  display: none; /* Hidden by default */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
